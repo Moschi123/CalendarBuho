@@ -23,7 +23,7 @@ const { setActiveEvent } = useCalendarStore();
  }
     return(
         <button
-         className="btn btn-primary fab"
+         className="btn btn-danger fab"
          onClick={handleClickNew}>
      <i className="fas  fa-plus"></i>
         </button>

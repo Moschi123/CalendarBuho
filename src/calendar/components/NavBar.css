@@ -1,0 +1,9 @@
+.logo {
+    width: 50px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;   /* Mantén la altura automática para mantener la proporción de aspecto */
+    filter: brightness(0) invert(1);
+  }
+  .bg-success {
+    background-color: green;
+  }
+  

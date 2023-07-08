@@ -23,7 +23,6 @@ export const useAuthStore = () => {
             }, 10);
         }
     }
-
     const startRegister = async({ email, password, name }) => {
         dispatch( onChecking() );
         try {
@@ -39,7 +38,6 @@ export const useAuthStore = () => {
             }, 10);
         }
     }
-
 
     const checkAuthToken = async() => {
         const token = localStorage.getItem('token');
