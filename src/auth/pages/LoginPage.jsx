@@ -45,6 +45,9 @@ export const LoginPage = () => {
 
     return (
         <div className="container login-container">
+            <div className='image'>
+               
+            </div>
             <div className="row">
                 <div className="col-md-6 login-form-1">
                     <h3>Ingreso</h3>
